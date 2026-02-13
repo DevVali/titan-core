@@ -6,6 +6,10 @@ collections_config:
     path: src/content/blog
     icon: event_available
     disable_url: false
+    _inputs:
+      $.publishDate:
+        type: text
+        cascade: true
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
