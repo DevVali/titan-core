@@ -1,17 +1,21 @@
 ---
-title: "Why Astro JS is Perfect for Marketing Websites"
-excerpt: "Discover why Astro JS is the ideal framework for building high-performance marketing websites"
-featuredImage: "./images/astro-marketing.jpg"
-publishDate: "2025-03-15"
+title: Is Astro JS best for making webistes?
+excerpt: >-
+  Discover why Astro JS is the ideal framework for building high-performance
+  marketing websites
+featuredImage: ./images/astro-marketing.jpg
+publishDate: '2025-03-15'
 publish: true
-categories: ["Astro JS", "Web Development"]
-
+categories:
+  - Astro JS
+  - Web Development
 seo:
-  title: "Why Astro JS is Perfect for Marketing Websites"
-  description: "Discover why Astro JS is the ideal framework for building high-performance marketing websites that convert visitors into customers"
-  image: "./images/astro-marketing.jpg"
+  title: Why Astro JS is Perfect for Marketing Websites
+  description: >-
+    Discover why Astro JS is the ideal framework for building high-performance
+    marketing websites that convert visitors into customers
+  image: ./images/astro-marketing.jpg
 ---
-
 ## The Marketing Website Challenge
 
 Marketing websites face unique challenges in today's digital landscape. They need to be fast, visually appealing, SEO-friendly, and optimized for conversion. Traditional frameworks often force compromises between these critical factors, but Astro JS changes the game entirely.
