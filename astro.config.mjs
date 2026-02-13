@@ -1,6 +1,14 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
+import editableRegions from "@cloudcannon/editable-regions/astro-integration";
+import { defineConfig } from "astro/config";
+
+
+
+
+
+
 import sitemap from '@astrojs/sitemap';
 
 // Get the site URL from environment variable or use a default for local development
@@ -32,6 +40,7 @@ export default defineConfig({
     }
   },
   integrations: [
+    editableRegions(),
     sitemap({
       changefreq: 'weekly',
       priority: 0.7,
@@ -50,5 +59,8 @@ export default defineConfig({
         protocol: "http"
       }
     ]
-  }
+  },
+
+
+
 });

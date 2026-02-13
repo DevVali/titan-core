@@ -11,6 +11,7 @@
         "astro": "astro"
     },
     "dependencies": {
+        "@cloudcannon/editable-regions": "^0.0.10",
         "aos": "^2.3.4"
     },
     "devDependencies": {
